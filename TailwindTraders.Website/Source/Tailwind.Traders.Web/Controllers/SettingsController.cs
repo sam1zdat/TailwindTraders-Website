@@ -8,6 +8,7 @@ namespace Tailwind.Traders.Web.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    // Anther comments
     public class SettingsController : ControllerBase
     {
         private readonly Settings _settings;
